@@ -31,5 +31,7 @@ if __name__ == '__main__':
 
     source = 'd://projetos//repository//PycharmProjects//python-DIO//security//'
     source_name = 'hosts.txt'
+    ip_source = '8.8.8.8'
 
     ping_multiplo(source, source_name)
+    verificar_host(ip_source)
